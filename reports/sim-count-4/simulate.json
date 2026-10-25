@@ -1,0 +1,58 @@
+{
+  "strategies": {
+    "full_generation": {
+      "strategy": "full_generation",
+      "accepted": 2,
+      "submitted": 3,
+      "duplicates": 0,
+      "duplicate_rate": 0.0,
+      "total_cost": 2.0,
+      "validator_revenue": 0.2,
+      "miner_payout": 1.8,
+      "rejected": 1,
+      "budget_remaining": 98.0,
+      "quality_gate": 0.6
+    },
+    "high_confidence": {
+      "strategy": "high_confidence",
+      "accepted": 2,
+      "submitted": 2,
+      "duplicates": 0,
+      "duplicate_rate": 0.0,
+      "total_cost": 2.0,
+      "validator_revenue": 0.2,
+      "miner_payout": 1.8,
+      "rejected": 0,
+      "budget_remaining": 98.0,
+      "quality_gate": 0.6
+    },
+    "provenance_first": {
+      "strategy": "provenance_first",
+      "accepted": 2,
+      "submitted": 3,
+      "duplicates": 0,
+      "duplicate_rate": 0.0,
+      "total_cost": 2.0,
+      "validator_revenue": 0.2,
+      "miner_payout": 1.8,
+      "rejected": 1,
+      "budget_remaining": 98.0,
+      "quality_gate": 0.6
+    },
+    "quality_gated": {
+      "strategy": "quality_gated",
+      "accepted": 2,
+      "submitted": 2,
+      "duplicates": 0,
+      "duplicate_rate": 0.0,
+      "total_cost": 2.0,
+      "validator_revenue": 0.2,
+      "miner_payout": 1.8,
+      "rejected": 0,
+      "budget_remaining": 98.0,
+      "quality_gate": 0.6
+    }
+  },
+  "offline": true,
+  "disclaimer": "Offline simulation; not real TAO earnings."
+}

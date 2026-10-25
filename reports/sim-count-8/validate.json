@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checked": 3,
+  "findings": [],
+  "stats": {
+    "errors": 0,
+    "warnings": 0,
+    "by_code": {}
+  },
+  "valid": true,
+  "quality_gate": "pass",
+  "offline": true
+}

@@ -1,0 +1,302 @@
+{
+  "records": [
+    {
+      "record_id": "sn119-001",
+      "task": "Classify a short support request.",
+      "answer": "billing",
+      "metadata": {
+        "split": "train",
+        "lang": "en"
+      },
+      "provenance": {
+        "source": "builtin-demo",
+        "source_uri": null,
+        "source_revision": "seed-v1",
+        "retrieved_at": null,
+        "author": null
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution_required": true,
+        "permitted_use": "research",
+        "notes": null
+      },
+      "privacy": {
+        "pii_present": false,
+        "pii_types": [],
+        "redacted": false,
+        "review_status": "passed"
+      },
+      "lineage": {
+        "parent_ids": [],
+        "transform": "normalized",
+        "generated_by": null
+      },
+      "quality": {
+        "duplicate": false,
+        "contamination": false,
+        "evaluation_leakage": {
+          "suspected": false,
+          "match_type": null,
+          "matched_record_ids": [],
+          "evidence": null
+        },
+        "needs_review": false,
+        "notes": []
+      }
+    },
+    {
+      "record_id": "sn119-002",
+      "task": "Extract the city from: Meet me in Shenzhen.",
+      "answer": "Shenzhen",
+      "metadata": {
+        "split": "train",
+        "lang": "en"
+      },
+      "provenance": {
+        "source": "builtin-demo",
+        "source_uri": null,
+        "source_revision": "seed-v1",
+        "retrieved_at": null,
+        "author": null
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution_required": true,
+        "permitted_use": "research",
+        "notes": null
+      },
+      "privacy": {
+        "pii_present": false,
+        "pii_types": [],
+        "redacted": false,
+        "review_status": "passed"
+      },
+      "lineage": {
+        "parent_ids": [],
+        "transform": "normalized",
+        "generated_by": null
+      },
+      "quality": {
+        "duplicate": false,
+        "contamination": false,
+        "evaluation_leakage": {
+          "suspected": false,
+          "match_type": null,
+          "matched_record_ids": [],
+          "evidence": null
+        },
+        "needs_review": false,
+        "notes": []
+      }
+    },
+    {
+      "record_id": "sn119-003",
+      "task": "Summarize the customer message containing an email address.",
+      "answer": "Customer requests a refund.",
+      "metadata": {
+        "split": "review",
+        "lang": "en"
+      },
+      "provenance": {
+        "source": "builtin-demo",
+        "source_uri": null,
+        "source_revision": "seed-v1",
+        "retrieved_at": null,
+        "author": null
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution_required": true,
+        "permitted_use": "research",
+        "notes": null
+      },
+      "privacy": {
+        "pii_present": true,
+        "pii_types": [
+          "email"
+        ],
+        "redacted": false,
+        "review_status": "needs_review"
+      },
+      "lineage": {
+        "parent_ids": [],
+        "transform": "normalized",
+        "generated_by": null
+      },
+      "quality": {
+        "duplicate": false,
+        "contamination": false,
+        "evaluation_leakage": {
+          "suspected": false,
+          "match_type": null,
+          "matched_record_ids": [],
+          "evidence": null
+        },
+        "needs_review": true,
+        "notes": [
+          "privacy review required"
+        ]
+      }
+    }
+  ],
+  "patch": [
+    {
+      "op": "add",
+      "record_id": "sn119-001",
+      "record": {
+        "record_id": "sn119-001",
+        "task": "Classify a short support request.",
+        "answer": "billing",
+        "metadata": {
+          "split": "train",
+          "lang": "en"
+        },
+        "provenance": {
+          "source": "builtin-demo",
+          "source_uri": null,
+          "source_revision": "seed-v1",
+          "retrieved_at": null,
+          "author": null
+        },
+        "rights": {
+          "license": "CC-BY-4.0",
+          "attribution_required": true,
+          "permitted_use": "research",
+          "notes": null
+        },
+        "privacy": {
+          "pii_present": false,
+          "pii_types": [],
+          "redacted": false,
+          "review_status": "passed"
+        },
+        "lineage": {
+          "parent_ids": [],
+          "transform": "normalized",
+          "generated_by": null
+        },
+        "quality": {
+          "duplicate": false,
+          "contamination": false,
+          "evaluation_leakage": {
+            "suspected": false,
+            "match_type": null,
+            "matched_record_ids": [],
+            "evidence": null
+          },
+          "needs_review": false,
+          "notes": []
+        }
+      }
+    },
+    {
+      "op": "add",
+      "record_id": "sn119-002",
+      "record": {
+        "record_id": "sn119-002",
+        "task": "Extract the city from: Meet me in Shenzhen.",
+        "answer": "Shenzhen",
+        "metadata": {
+          "split": "train",
+          "lang": "en"
+        },
+        "provenance": {
+          "source": "builtin-demo",
+          "source_uri": null,
+          "source_revision": "seed-v1",
+          "retrieved_at": null,
+          "author": null
+        },
+        "rights": {
+          "license": "CC-BY-4.0",
+          "attribution_required": true,
+          "permitted_use": "research",
+          "notes": null
+        },
+        "privacy": {
+          "pii_present": false,
+          "pii_types": [],
+          "redacted": false,
+          "review_status": "passed"
+        },
+        "lineage": {
+          "parent_ids": [],
+          "transform": "normalized",
+          "generated_by": null
+        },
+        "quality": {
+          "duplicate": false,
+          "contamination": false,
+          "evaluation_leakage": {
+            "suspected": false,
+            "match_type": null,
+            "matched_record_ids": [],
+            "evidence": null
+          },
+          "needs_review": false,
+          "notes": []
+        }
+      }
+    },
+    {
+      "op": "add",
+      "record_id": "sn119-003",
+      "record": {
+        "record_id": "sn119-003",
+        "task": "Summarize the customer message containing an email address.",
+        "answer": "Customer requests a refund.",
+        "metadata": {
+          "split": "review",
+          "lang": "en"
+        },
+        "provenance": {
+          "source": "builtin-demo",
+          "source_uri": null,
+          "source_revision": "seed-v1",
+          "retrieved_at": null,
+          "author": null
+        },
+        "rights": {
+          "license": "CC-BY-4.0",
+          "attribution_required": true,
+          "permitted_use": "research",
+          "notes": null
+        },
+        "privacy": {
+          "pii_present": true,
+          "pii_types": [
+            "email"
+          ],
+          "redacted": false,
+          "review_status": "needs_review"
+        },
+        "lineage": {
+          "parent_ids": [],
+          "transform": "normalized",
+          "generated_by": null
+        },
+        "quality": {
+          "duplicate": false,
+          "contamination": false,
+          "evaluation_leakage": {
+            "suspected": false,
+            "match_type": null,
+            "matched_record_ids": [],
+            "evidence": null
+          },
+          "needs_review": true,
+          "notes": [
+            "privacy review required"
+          ]
+        }
+      }
+    },
+    {
+      "op": "skip",
+      "record_id": "sn119-004",
+      "reason": "contamination"
+    }
+  ],
+  "offline": true
+}

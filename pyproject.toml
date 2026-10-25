@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sn119-demo"
+version = "0.1.0"
+description = "Standard-library SN119 offline demonstration pipeline"
+requires-python = ">=3.9"
+
+[project.scripts]
+sn119-demo = "sn119_demo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

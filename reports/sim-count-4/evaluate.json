@@ -1,0 +1,11 @@
+{
+  "count": 3,
+  "accuracy": 1.0,
+  "reasoning": 0.2333333333333333,
+  "clarity": 1.0,
+  "calibration": 0.7166666666666667,
+  "safety_proxy": 1.0,
+  "baseline_id": "sn119-frozen-v1",
+  "offline": true,
+  "candidate_count": 3
+}
